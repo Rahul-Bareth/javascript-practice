@@ -1,13 +1,48 @@
-let fooditems = ["potato", "apple", "litchi", "mango"] {
-   
-}
+//Practice Question 
+
+let companies = ["Bloomberg", "Micrisoft", "Uber", "Google", "IBM", "Netflix"];
+companies.shift();
+companies.splice(2, 1,"Ola");
+//console.log(companies);
+companies.push("Amazon");
+console.log(companies);
+
+
+
 
 
 /*
+let marvelHeroes = ["thor", "ironman", "Spiderman"];
+let dcHeroes = ["superman", "batman"];
+let indianHeroes = ["krrish", "shaktimaan"];
+
+let heroes = marvelHeroes.concat(dcHeroes, indianHeroes); {
+  console.log(heroes);
+}
+
+
+
+let fooditems = ["potato", "apple", "litchi", "mango"]; {
+  console.log(fooditems);
+  console.log(fooditems.toString());
+}
+
+
+
+let fooditems = ["potato", "apple", "litchi", "mango"]; {
+  console.log(fooditems);
+  //fooditems.push("banana", "paneer", "strawberry"); 
+  let deleteditem = fooditems.pop();
+  console.log(fooditems);
+  console.log("deleted", deleteditem);
+}
+
+
+
 //Practice Question 2
 let items = [250, 645, 300, 900, 50];
 
-for (let i = 0; i < items.length; i++){
+for (let i = 0; i < items.length; i++) {
   let offer = items[i] / 10;
   items[i] -= offer;
 }
@@ -41,14 +76,14 @@ for (let val of marks) {
 }
 
 console.log(sum);
- let avg = sum / marks.length;
- console.log(`avg marks of the class ${avg}`);
+let avg = sum / marks.length;
+console.log(`avg marks of the class ${avg}`);
 
 
 
-let cities = ["Delhi", "Mumbai", "Pune", "Gurgaon", "Hyderbaad"] ;
- 
-for (let city of cities){
+let cities = ["Delhi", "Mumbai", "Pune", "Gurgaon", "Hyderbaad"];
+
+for (let city of cities) {
   console.log(city);
 }
 
@@ -72,7 +107,7 @@ console.log(heroes);
 
 
 
-let marks = [23,45,64,56,97];
+let marks = [23, 45, 64, 56, 97];
 console.log(marks);
 console.log(marks.length);
 
@@ -85,6 +120,6 @@ console.log(marks[5]);
 console.log(marks[100]);
 console.log(marks);
 
-marks [0] = 87;
+marks[0] = 87;
 console.log(marks); */
 
